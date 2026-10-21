@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>啊呜 · 技术支持</title>
+<meta name="description" content="啊呜（相册清理 App）的常见问题和联系方式。">
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="hero">
+    <img class="icon" src="assets/icon.png" alt="啊呜的图标">
+    <div>
+      <h1>技术支持</h1>
+      <p>遇到问题？先看看这里，没找到答案就给我们写信</p>
+    </div>
+  </header>
+
+  <div class="card tint-lime">
+    <h2>联系我们</h2>
+    <p>发邮件到 <a href="mailto:awuapphelp@2925.com?subject=%E5%95%8A%E5%91%9C%E5%8F%8D%E9%A6%88">awuapphelp@2925.com</a>，说说你遇到了什么（手机型号、iOS 版本、怎么操作出现的问题），我们会尽快回复。</p>
+    <p class="muted small">啊呜不收集任何数据，所以没法从后台看到你的问题——邮件里说得越清楚，我们越快能帮上忙。</p>
+  </div>
+
+  <div class="card">
+    <h2>常见问题</h2>
+    <details open>
+      <summary>删了照片，手机空间怎么没变？</summary>
+      <p>删掉的照片会先在「照片 › 相簿 › 最近删除」里放 30 天，方便后悔。去那里点「选择」→「全部删除」，空间才真正腾出来。如果开了 iCloud 照片的「优化 iPhone 储存空间」，手机里原本只存着缩略图，清理腾出的主要是 iCloud 的空间。</p>
+    </details>
+    <details>
+      <summary>删错了怎么办？</summary>
+      <p>去「照片 › 相簿 › 最近删除」，30 天内都能恢复。啊呜每次删除前都会先让系统弹框确认。</p>
+    </details>
+    <details>
+      <summary>「压一压」会把照片压坏吗？</summary>
+      <p>视频转成更省地方的 HEVC，照片和截图转成 HEIC，在手机上看几乎没差别；压之前点缩略图能先看压缩前后对比。拍摄时间、地点、所在相簿都会照搬，实况照片压完还是实况。原件会放进「最近删除」，30 天内能找回。收藏的、编辑过的、人像、RAW、慢动作不会碰。</p>
+    </details>
+    <details>
+      <summary>压一压可以切到后台吗？</summary>
+      <p>可以。iOS 26 及以上切到别的 App 也会一直压，灵动岛和锁屏上能看到进度；更早的系统会先停下，回到啊呜接着压。压完要回到啊呜点一下「换成压缩版」，系统会弹框确认。</p>
+    </details>
+    <details>
+      <summary>为什么有的重复没被揪出来？</summary>
+      <p>啊呜宁可漏掉，也不乱删：只有和留下的那张“直接”很像的才会默认勾选。想多找一些，可以在「揪出重复」里把灵敏度调成「宽松」。点过「移除」的组不会再出现，可以在「设置」里「全部恢复」。</p>
+    </details>
+    <details>
+      <summary>「糊片专场」是怎么判断糊的？</summary>
+      <p>啊呜会看照片里最清楚的那一块：主体清楚、背景虚化的不算糊；整张都糊（手抖、没对上焦）才会被挑出来。截图和收藏的照片不会出现。</p>
+    </details>
+    <details>
+      <summary>啊呜会上传我的照片吗？</summary>
+      <p>不会。所有分析都在你的手机上完成，啊呜不联网，也不收集任何数据。详见 <a href="privacy.html">隐私政策</a>。</p>
+    </details>
+    <details>
+      <summary>会员怎么收费？可以取消吗？</summary>
+      <p>每个新用户免费送“吃掉 100 张、压一压 3 个”，用完再决定要不要开会员。终身会员一次付费、永久使用；年度会员到期自动续费，可以随时在「设置 › Apple 账户 › 订阅」里取消，当期结束前 24 小时内没取消会自动续订。</p>
+    </details>
+    <details>
+      <summary>有兑换码怎么用？</summary>
+      <p>打开啊呜，在「设置」的会员卡片或会员页点「兑换码」，输进去就行，兑换成功马上生效。也可以在 App Store 里点右上角的头像 ›「兑换充值卡或代码」。兑换码有有效期，过期就用不了了。</p>
+    </details>
+    <details>
+      <summary>换了手机 / 重装以后会员没了？</summary>
+      <p>打开啊呜的会员页或「设置」，点「恢复购买」，用买会员的那个 Apple 账户登录就能恢复。</p>
+    </details>
+    <details>
+      <summary>只授权了部分照片怎么办？</summary>
+      <p>啊呜只能看到你授权的那些照片。首页会提示，点「选更多」就能在系统里增加照片；也可以去「设置 › 啊呜 › 照片」改成「完全访问」。</p>
+    </details>
+  </div>
+
+  <footer>
+    <a href="index.html">啊呜</a>·<a href="support.html">技术支持</a>·<a href="privacy.html">隐私政策</a>
+  </footer>
+</main>
+</body>
+</html>
